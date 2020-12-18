@@ -1,4 +1,4 @@
-FROM alpine:3.12 as prod
+FROM alpine:20200917 as prod
 
 LABEL maintainer="Ergashev Adizbek <adizbek1998@gmail.com>" \
 		version.image="1.1" \
