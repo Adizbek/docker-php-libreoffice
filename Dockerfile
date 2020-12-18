@@ -1,7 +1,7 @@
-FROM alpine:3.10 as prod
+FROM alpine:3.12 as prod
 
 LABEL maintainer="Ergashev Adizbek <adizbek1998@gmail.com>" \
-		version.image="1.0" \
+		version.image="1.1" \
 		description="A universal image to run laravel app, designed to use with web, queue, and working with libreoffice"
 
 # install libreoffice as we need it
