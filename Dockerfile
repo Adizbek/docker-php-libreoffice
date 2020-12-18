@@ -13,7 +13,7 @@ RUN apk --no-cache add libreoffice msttcorefonts-installer fontconfig && \
 RUN apk add --no-cache php7 php7-fpm php7-mysqli php7-mbstring php7-gd php7-json php7-openssl php7-zlib \
             php7-xml php7-simplexml php7-phar php7-sockets php7-intl php7-dom php7-xmlreader php7-ctype php7-session php7-curl php7-iconv \
             php7-tokenizer php7-pcntl php7-xmlwriter php7-fileinfo php7-posix php7-zip php7-pdo php7-pdo_sqlite \
-            php7-pdo_mysql nano curl nginx supervisor
+            php7-pdo_mysql nano curl nginx supervisor pip3
 
 RUN pip3 install unoconv
 #install composer itself
